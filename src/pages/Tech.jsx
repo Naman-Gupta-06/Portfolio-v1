@@ -8,7 +8,7 @@ const Tech = () => {
     "Express.js",
     "Node.js",
     "Mongodb",
-    "C",
+    "C++",
     "MySQL",
     "Tailwind Css",
     "Github",

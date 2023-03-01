@@ -34,7 +34,22 @@
 
 .Gmail_container__1wl_n div a:active:hover,.Gmail_container__1wl_n div a:hover {
     letter-spacing: 1.8px;
-    color: rgb(46 211 183);
+  
+    color: -webkit-linear-gradient(
+        135deg,
+        var(--color-light-blue),
+        var(--color-light-purple),
+        var(--color-light-blue),
+        var(--color-light-purple)
+      );
+    
+      color: linear-gradient(
+        -45deg,
+        var(--color-light-blue),
+        var(--color-light-purple),
+        var(--color-light-blue),
+        var(--color-light-purple)
+      );
     transform: translateY(-6px)
 }
 
@@ -43,5 +58,20 @@
     display: block;
     width: 2px;
     height: 100px;
-    background: rgb(46 211 183);
+   
+  background: -webkit-linear-gradient(
+    135deg,
+    var(--color-light-blue),
+    var(--color-light-purple),
+    var(--color-light-blue),
+    var(--color-light-purple)
+  );
+
+  background: linear-gradient(
+    -45deg,
+    var(--color-light-blue),
+    var(--color-light-purple),
+    var(--color-light-blue),
+    var(--color-light-purple)
+  );
 }

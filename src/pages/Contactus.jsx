@@ -25,14 +25,14 @@ const Contactus = () => {
 
           <div className="Contact__Links">
             <h3>
-              <span id="waveText">Dont be a stranger! </span>{" "}
+              <span id="waveText">Stranger?</span>{" "}
               <span id="wave">👋</span>
             </h3>
 
-            <h4>Connect with me online</h4>
+            <h4>Get In Touch with me</h4>
             <div className="Contack__Link__div">
               <a
-                href="https://github.com/"
+                href='https://github.com/Naman-Gupta-06'
                 target="_blank"
                 className="con__link"
               >
@@ -40,7 +40,7 @@ const Contactus = () => {
               </a>
 
               <a
-                href="https://www.linkedin.com/in/"
+                href="https://www.linkedin.com/in/naman-gupta-nemo/"
                 target="_blank"
                 className="con__link"
               >
@@ -55,7 +55,7 @@ const Contactus = () => {
                 <FaInstagram /> <span>Instagram</span>
               </a>
               <a
-                href="https://twitter.com/"
+                href="https://wa.me/+919634158726"
                 target="_blank"
                 className="con__link"
               >

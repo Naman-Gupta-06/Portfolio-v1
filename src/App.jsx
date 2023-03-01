@@ -3,9 +3,10 @@ import Contact from "./pages/Contactus";
 import Footer from "./pages/Footer";
 import Home from "./pages/Home";
 import Navbar from "./pages/Navbar";
-import Sidesocials from "./pages/Sidemail";
+import Sidemail from "./pages/Sidemail";
 import Projects from "./pages/Projects";
 import Tech from "./pages/Tech";
+import Sidesocials from "./pages/Sidesocials";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Tech />
       <Contact />
       <Footer />
+      <Sidemail/>
       <Sidesocials/>
     </div>
   );

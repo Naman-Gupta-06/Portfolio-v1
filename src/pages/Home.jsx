@@ -24,7 +24,7 @@ const Home = () => {
         animate={{ scale: 1, opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.5 }}
       >
-         <div className="nemo">A &nbsp;
+         <div className="nemo"> <h2 style={{display:"flex"}}>A &nbsp;
         
          <Typewriter
          options={{
@@ -47,7 +47,7 @@ const Home = () => {
        .typeString(" mentor")
        .start();
        }}
-       /></div>
+       /></h2></div>
    
   
       </motion.h2>

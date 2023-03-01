@@ -36,7 +36,7 @@ body {
   /* background-color: #10101a; */
     background-image: url('/public/bg-1.png'), url('/public/bg-2.png'), url('/public/bg-3.png');
     background-repeat: no-repeat;
-    background-size: cover, 100% 1000px, 100% 1100px;
+    background-size: cover, 100% 1500px, 100% 2100px;
     background-position: 100%, top, bottom;
     background-color: #111827;
     /* overflow: hidden; */
