@@ -1,0 +1,16 @@
+.Footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.Footer h2 {
+  padding: 2rem;
+  width: 100%;
+  font-weight: 400;
+  font-size: 1.25rem;
+  text-align: end;
+  color: #94a6b3;
+  /* border-top: 1px solid #2c2f41; */
+}
