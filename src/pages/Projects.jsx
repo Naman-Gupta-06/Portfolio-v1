@@ -267,13 +267,6 @@ const Projects = () => {
           </div>
         </motion.div>
       </div>
-      <a
-        className="Project__MoreProjects"
-        href="https://github.com/l33Z"
-        target="_blank"
-      >
-        Other Noteworthy Projects
-      </a>
     </div>
   );
 };

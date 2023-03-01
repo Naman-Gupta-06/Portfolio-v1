@@ -1,5 +1,5 @@
-import "../styles/contacus.css";
-import { FaGithub, FaLinkedin, FaTwitter, FaInstagram } from "react-icons/fa";
+import "../styles/contactus.css";
+import { FaGithub, FaLinkedin, FaTwitter, FaInstagram,FaWhatsapp } from "react-icons/fa";
 import { motion } from "framer-motion";
 
 const Contactus = () => {
@@ -48,28 +48,27 @@ const Contactus = () => {
               </a>
 
               <a
-                href="https://twitter.com/"
-                target="_blank"
-                className="con__link"
-              >
-                <FaTwitter /> <span>Twitter</span>
-              </a>
-
-              <a
                 href="https://www.instagram.com/nemo_.06"
                 target="_blank"
                 className="con__link"
               >
                 <FaInstagram /> <span>Instagram</span>
               </a>
+              <a
+                href="https://twitter.com/"
+                target="_blank"
+                className="con__link"
+              >
+                <FaWhatsapp /> <span>Whatsapp</span>
+              </a>
             </div>
           </div>
 
-          <div className="Email_Link h-20">
+          {/* <div className="Email_Link h-20">
             <a href="mailto:namangupta990@gmail.com">
               📧 namangupta990@gmail.com
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
     </>

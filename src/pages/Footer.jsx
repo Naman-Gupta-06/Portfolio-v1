@@ -1,9 +1,10 @@
-// import "../styles/footer.css";
+import "../styles/footer.css";
 
 const Footer = () => {
   return (
-    <footer className="h-20 w-20 bg-white">
-      <h2 className=""> Developed with  <p className="h-5 w-5 mr-3 animate-pulse">sdf❤️</p> by @nemo</h2>
+    <footer className="Footer">
+      <h3> </h3>
+      <h2> Developed  by @nemo</h2>
     </footer>
   );
 };

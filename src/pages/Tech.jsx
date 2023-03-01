@@ -44,49 +44,6 @@ const Tech = () => {
             );
           })}
         </div>
-        {/* <div className="Skills__Problem__Solving">
-          <h2>♾️ Have a good ability to solve problems </h2>
-          <div className="Coding__Profiles">
-            <motion.a
-              href="https://leetcode.com/rabadiyazeel/"
-              target="_blank"
-              className="Profile"
-              initial={{ scale: 0, opacity: 0 }}
-              whileInView={{ scale: 1, opacity: 1 }}
-              transition={{ delay: 1 }}
-              viewport={{ once: true }}
-            >
-              <img src={leetcode} alt="leetcode" />
-            </motion.a>
-
-            <motion.a
-              href="https://www.hackerrank.com/zeelrabadiya198"
-              target="_blank"
-              className="Profile"
-              initial={{ scale: 0, opacity: 0 }}
-              whileInView={{ scale: 1, opacity: 1 }}
-              transition={{ delay: 1 }}
-              viewport={{ once: true }}
-            >
-              <img src={hackerrank} alt="hackerrank" />
-            </motion.a>
-          </div>
-        </div> */}
-
-        {/* <div className="Skills__Experience">
-          <h2>
-            ♾️ I completed a one-month virtual internship as a web developer
-            intern at LetsGrowMore (LGM) Community.
-          </h2>
-
-          <a
-            href="https://www.linkedin.com/feed/update/urn:li:activity:6996384089436008448/"
-            target="_blank"
-            className="viewLink"
-          >
-            VIEW CERTIFICATE
-          </a>
-        </div> */}
       </div>
     </div>
   );

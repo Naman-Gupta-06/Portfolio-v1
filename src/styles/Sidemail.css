@@ -1,0 +1,47 @@
+.Gmail_container__1wl_n {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    color: #fff;
+    right: .9rem
+}
+
+@media(min-width: 768px) {
+    .Gmail_container__1wl_n {
+        right:1.8rem;
+        display: block
+    }
+}
+
+.Gmail_container__1wl_n div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative
+}
+
+.Gmail_container__1wl_n div a,.Gmail_container__1wl_n div a:active {
+    text-decoration: none;
+    letter-spacing: 1.2px;
+    color: inherit;
+    -ms-writing-mode: tb-lr;
+    writing-mode: vertical-lr;
+    font-weight: 200;
+    margin-bottom: 1.2rem;
+    transition: all .3s ease-out;
+    font-size: 1.3em;
+}
+
+.Gmail_container__1wl_n div a:active:hover,.Gmail_container__1wl_n div a:hover {
+    letter-spacing: 1.8px;
+    color: rgb(46 211 183);
+    transform: translateY(-6px)
+}
+
+.Gmail_container__1wl_n div:after {
+    content: "";
+    display: block;
+    width: 2px;
+    height: 100px;
+    background: rgb(46 211 183);
+}
