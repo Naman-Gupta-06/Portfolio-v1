@@ -58,7 +58,7 @@ const Home = () => {
         transition={{ duration: 0.5, delay: 1 }}
       >
       </motion.h5>
-      {/* <motion.a
+      <motion.a
         href="#Project__Main"
         className="viewLink"
         initial={{ opacity: 0 }}
@@ -66,7 +66,7 @@ const Home = () => {
         transition={{ duration: 0.5, delay: 1.5 }}
       >
         VIEW PROJECTS
-      </motion.a> */}
+      </motion.a>
     </div>
   );
 };

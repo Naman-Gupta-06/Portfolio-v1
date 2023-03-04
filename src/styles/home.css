@@ -113,6 +113,7 @@ body {
 @media only screen and (max-width: 1450px) {
   .Home__Main {
     padding: 0 14rem;
+    min-height:100vh;
   }
 }
 

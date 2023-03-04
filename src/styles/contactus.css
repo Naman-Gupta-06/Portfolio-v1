@@ -3,7 +3,7 @@
   padding: 0 18rem;
   display: flex;
   flex-direction: column;
-  width: 100vw;
+  width: 100%;
   min-height: 90vh;
   position: relative;
 }
@@ -37,8 +37,9 @@
 }
 
 .Contact__Links {
-  width: 80%;
+  width: 100%;
   margin-top: 7rem;
+  text-align:center;
 }
 
 .Contact__Links h3 {
@@ -66,7 +67,7 @@
 #wave {
   display: inline-block;
   animation: waves 2s ease infinite;
-  font-size: 4rem;
+  font-size: 2.9rem;
   transform-origin: 70% 70%;
 }
 
@@ -112,15 +113,16 @@
 }
 
 .Contack__Link__div {
-  width:100%;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  /* align-items: center; */
   margin-top: 3rem;
+  justify-content: center;
 }
 
 .con__link {
-  margin-right: 3rem;
+  /* margin-right: 3rem; */
   margin-bottom: 3rem;
   display: flex;
   justify-content: center;
@@ -234,14 +236,14 @@
     margin-top: 5rem;
   }
   .Contact__Links h3 {
-    font-size: 3rem;
+    font-size: 2.8rem;
   }
   .Contact__Container h2 {
     font-size: 2rem;
     width: 100%;
   }
   .con__link {
-    margin-right: 2rem;
+    /* margin-right: 2rem; */
     margin-bottom: 3rem;
 
     padding: 0.5rem 2rem;
@@ -276,4 +278,12 @@
     margin: 3rem 0;
     font-size: 1.7rem;
   }
+}
+
+.text-strong{
+  /* background: linear-gradient(90deg, #ffffff 0%, #ffffff 50%, #8b31ff 51%, #7000ff 102%); */
+  color:#8b31ff;
+  background-size: 200% 100%;
+  -webkit-background-clip: text;
+  /* -webkit-text-fill-color: transparent; */
 }

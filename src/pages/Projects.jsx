@@ -25,7 +25,78 @@ const Projects = () => {
           transition={{ delay: 0.4 }}
         >
           <div className="Project__info" >
-            <h2>Coming Soon</h2>
+          <div className="Project__info">
+            <h2>Portfolio</h2>
+            <h3>
+            A website to showcase my expertise and passion as a web developer through a variety of projects.
+            </h3>
+
+            <div className="Project__Btns">
+              <a
+                href="https://namangupta.live/"
+                target="_blank"
+                className="Project__btn"
+              >
+                <FiExternalLink />
+              </a>
+              <a
+                href="https://github.com/Naman-Gupta-06/Portfolio-v1"
+                target="_blank"
+                className="Project__btn github"
+              >
+                <FaGithub />
+              </a>
+            </div>
+
+            <div className="Project__techUsed">
+              <p>#react</p>
+              <p>Feamer Motion</p>
+              <p>Css</p>
+            </div>
+          </div>
+            
+          </div>
+        </motion.div>
+
+        <motion.div
+          className="Project__Box"
+          initial={{ scale: 0, opacity: 0 }}
+          whileInView={{ scale: 1, opacity: 1 }}
+          viewport={{ once: true }}
+          transition={{ delay: 0.4 }}
+        >
+          <div className="Project__info" >
+          <div className="Project__info">
+            <h2>Meri Dukaan</h2>
+            <h3>
+              It is a Web application that facilitates the  in an easy and interactive manner through the use
+              of Giphy Api
+            </h3>
+
+            <div className="Project__Btns">
+              <a
+                href="https://z-transfer.netlify.app/"
+                target="_blank"
+                className="Project__btn"
+              >
+                <FiExternalLink />
+              </a>
+              <a
+                href="https://github.com/l33Z/Z-Transfer"
+                target="_blank"
+                className="Project__btn github"
+              >
+                <FaGithub />
+              </a>
+            </div>
+
+            <div className="Project__techUsed">
+              <p>#react</p>
+              <p>#Auth</p>
+              <p>#Tailwind Css</p>
+             <p>Express</p>
+            </div>
+          </div>
             
           </div>
         </motion.div>

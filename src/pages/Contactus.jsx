@@ -1,5 +1,5 @@
 import "../styles/contactus.css";
-import { FaGithub, FaLinkedin, FaTwitter, FaInstagram,FaWhatsapp } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaEnvelope, FaInstagram,FaWhatsapp } from "react-icons/fa";
 import { motion } from "framer-motion";
 
 const Contactus = () => {
@@ -25,43 +25,22 @@ const Contactus = () => {
 
           <div className="Contact__Links">
             <h3>
-              <span id="waveText">Stranger?</span>{" "}
+              <span id="">Interested in <span className="text-strong">Collaboration</span>?</span>{" "}
               <span id="wave">👋</span>
             </h3>
 
-            <h4>Get In Touch with me</h4>
+            <h4>Get In Touch with me
             <div className="Contack__Link__div">
               <a
-                href='https://github.com/Naman-Gupta-06'
+                href='mailto:namangupta990@gmail.com'
                 target="_blank"
                 className="con__link"
               >
-                <FaGithub /> <span>Github</span>
+                <FaEnvelope /> <span>Say Hi</span>
               </a>
 
-              <a
-                href="https://www.linkedin.com/in/naman-gupta-nemo/"
-                target="_blank"
-                className="con__link"
-              >
-                <FaLinkedin /> <span>Linkedin</span>
-              </a>
-
-              <a
-                href="https://www.instagram.com/nemo_.06"
-                target="_blank"
-                className="con__link"
-              >
-                <FaInstagram /> <span>Instagram</span>
-              </a>
-              <a
-                href="https://wa.me/+919634158726"
-                target="_blank"
-                className="con__link"
-              >
-                <FaWhatsapp /> <span>Whatsapp</span>
-              </a>
             </div>
+            </h4>
           </div>
 
           {/* <div className="Email_Link h-20">
