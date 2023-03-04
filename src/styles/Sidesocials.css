@@ -1,18 +1,19 @@
 .socials {
-    padding:2rem;
+    padding-left:2rem;
     display: none;
     gap: 24px;
     align-items: center;
     flex-direction: column;
     width: 0;
-    position: absolute;
-    top: 200px;
+    position: absolute fixed;
+    position: fixed;
+    bottom:0;
   }
   
   .socials::after {
     content:'';
     display: block;
-    width: 1.5px;
+    width: 2.5px;
     height: 150px;
     background-color: #475569;
     margin-top: 56px;
@@ -21,12 +22,12 @@
   @media (min-width: 750px) {
     .socials {
       display: flex;
-      margin:4rem;
+      margin-left:4rem;
     }
   }
   
   .sides{
-    font-size: 2.2rem;
+    font-size: 2.8rem;
    
   }
   .sides:hover{

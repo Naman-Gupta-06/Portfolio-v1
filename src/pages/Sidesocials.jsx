@@ -13,10 +13,9 @@ function Sidesocials() {
         </a>
         <a href="https://www.instagram.com/nemo_.06" className='sides'>
         <FaInstagram />
-        
         </a>
         <a href="https://wa.me/+919634158726" className="sides">
-                <FaWhatsapp />
+        <FaWhatsapp />
         </a>
     </div>
   )
