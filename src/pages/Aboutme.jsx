@@ -31,13 +31,9 @@ const About = () => {
             development started back in 2020.
           </h2>
           <h2>
-            Fast-forward to 2022 starting, Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio voluptate quia reiciendis eveniet corrupti magni fugit vel consequuntur omnis quisquam minima molestiae incidunt sapiente consequatur repellendus, provident inventore sunt rerum!
+            I'm passionate about building scalable and performant webapps.I like to take responsiblity to craft aesthetic user Experience using mordern frontend architecture.
           </h2>
-          <h2>
-            When I am not coding, I am either playing chess, video game, or
-            watching a movie. Other times I am reading or learning a new
-            language or framework.
-          </h2>
+          <h2><span className="quote" style={{ color: "white" }}>I have a stong obsession for attention to  detail.</span></h2>
         </div>
         <div className="About__profilePic">
           <img src="./nemo2.jpg" alt="profile" />

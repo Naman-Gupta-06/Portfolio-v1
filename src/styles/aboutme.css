@@ -66,6 +66,9 @@
   font-size: 2rem;
   margin-bottom: 2rem;
 }
+.quote{
+  font-weight: 800;
+}
 
 .About__profilePic {
   display: flex;
