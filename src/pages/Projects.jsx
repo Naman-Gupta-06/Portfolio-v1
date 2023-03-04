@@ -75,14 +75,14 @@ const Projects = () => {
 
             <div className="Project__Btns">
               <a
-                href="https://z-transfer.netlify.app/"
+                href=""
                 target="_blank"
                 className="Project__btn"
               >
                 <FiExternalLink />
               </a>
               <a
-                href="https://github.com/l33Z/Z-Transfer"
+                href=""
                 target="_blank"
                 className="Project__btn github"
               >
