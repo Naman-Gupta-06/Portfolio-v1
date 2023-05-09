@@ -32,13 +32,7 @@ const Projects = () => {
             </h3>
 
             <div className="Project__Btns">
-              <a
-                href="https://namangupta.live/"
-                target="_blank"
-                className="Project__btn"
-              >
-                <FiExternalLink />
-              </a>
+              
               <a
                 href="https://github.com/Naman-Gupta-06/Portfolio-v1"
                 target="_blank"
@@ -50,8 +44,8 @@ const Projects = () => {
 
             <div className="Project__techUsed">
               <p>#react</p>
-              <p>Feamer Motion</p>
-              <p>Css</p>
+              <p>#Framer Motion</p>
+              <p>#css</p>
             </div>
           </div>
             
@@ -67,22 +61,52 @@ const Projects = () => {
         >
           <div className="Project__info" >
           <div className="Project__info">
-            <h2>Meri Dukaan</h2>
+            <h2>Virtual Meet</h2>
             <h3>
-              It is a Web application that facilitates the  in an easy and interactive manner through the use
-              of Giphy Api
+            Virtual Meet is a full-stack project that allows users to create virtual rooms and participate in group video calls and chat with other members of the room.
             </h3>
 
             <div className="Project__Btns">
+             
               <a
-                href=""
+                href="https://github.com/Naman-Gupta-06/Virtual-Meet"
                 target="_blank"
-                className="Project__btn"
+                className="Project__btn github"
               >
-                <FiExternalLink />
+                <FaGithub />
               </a>
+            </div>
+
+            <div className="Project__techUsed">
+              <p>#react</p>
+              <p>#auth</p>
+              <p>#tailwind Css</p>
+             <p>#express</p>
+             <p>#socket.io</p>
+             <p>#webRTC</p>
+             <p></p>
+            </div>
+          </div>
+            
+          </div>
+        </motion.div>
+        <motion.div
+          className="Project__Box"
+          initial={{ scale: 0, opacity: 0 }}
+          whileInView={{ scale: 1, opacity: 1 }}
+          viewport={{ once: true }}
+          transition={{ delay: 0.4 }}
+        >
+          <div className="Project__info" >
+          <div className="Project__info">
+            <h2>Card Fraud Interception Plugin</h2>
+            <h3>
+            This is a geolocation-based transaction plugin that can be used in ATMs to combat card fraud. It provides banks with quantitative statistics based on the number of ATMs in use. </h3>
+
+            <div className="Project__Btns">
+             
               <a
-                href=""
+                href="https://github.com/Naman-Gupta-06/RNA-MINOR-2023-24"
                 target="_blank"
                 className="Project__btn github"
               >
@@ -94,10 +118,45 @@ const Projects = () => {
               <p>#react</p>
               <p>#Auth</p>
               <p>#Tailwind Css</p>
-             <p>Express</p>
+             <p>#Flask</p>
+             <p>#Postgress SQL</p>
             </div>
           </div>
             
+          </div>
+        </motion.div>
+
+        <motion.div
+          className="Project__Box"
+          initial={{ scale: 0, opacity: 0 }}
+          whileInView={{ scale: 1, opacity: 1 }}
+          viewport={{ once: true }}
+          transition={{ delay: 0.4 }}
+        >
+          <div className="Project__info" >
+          <div className="Project__info">
+            <h2>Meri-Dukaan</h2>
+            <h3>
+            This web application is built using MERN stack. It allows users to browse and purchase products similar to the Amazon website.</h3>
+            <div className="Project__Btns">
+             
+              <a
+                href="https://github.com/Naman-Gupta-06/Meri-Dukan"
+                target="_blank"
+                className="Project__btn github"
+              >
+                <FaGithub />
+              </a>
+            </div>
+
+            <div className="Project__techUsed">
+              <p>#react</p>
+              <p>#Auth</p>
+             <p>#Firebase</p>
+             <p>#Mongodb</p>
+            </div>
+          </div>
+          
           </div>
         </motion.div>
       </div>
