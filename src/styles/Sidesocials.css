@@ -9,14 +9,17 @@
     position: fixed;
     bottom:0;
   }
+  .duration-200{
+    transition-duration: .4s;
+  }
   
   .socials::after {
     content:'';
     display: block;
     width: 2.5px;
-    height: 150px;
+    height: 25em;
     background-color: #475569;
-    margin-top: 56px;
+    margin-top: 1em;
   }
   
   @media (min-width: 750px) {
@@ -27,7 +30,7 @@
   }
   
   .sides{
-    font-size: 2.8rem;
+    font-size: 3em;
    
   }
   .sides:hover{

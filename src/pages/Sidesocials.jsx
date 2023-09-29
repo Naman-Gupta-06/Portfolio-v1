@@ -1,22 +1,26 @@
 import React from 'react';
 import "../styles/Sidesocials.css";
-import { FaGithub, FaLinkedin, FaInstagram,FaWhatsapp } from "react-icons/fa";
+import { FaGithub, FaLinkedinIn, FaInstagram,FaWhatsapp,FaTwitter } from "react-icons/fa";
 
 function Sidesocials() {
   return (
     <div className="socials">
-        <a href="https://github.com/Naman-Gupta-06" className='sides'>
-        <FaGithub />
+        <a href="nemogpt.tech/github" className='sides duration-200'>
+        <FaGithub color="#c4c4c4" size={25}/>
         </a>
-        <a href="https://www.linkedin.com/in/naman-gupta-nemo/" className='sides'>
-        <FaLinkedin />
+        <a href="https://nemogpt.tech/linkedin" className='sides duration-200'>
+        <FaLinkedinIn color="#c4c4c4" size={25} />
         </a>
-        <a href="https://www.instagram.com/nemo_.06" className='sides'>
-        <FaInstagram />
+        <a href="https://nemogpt.tech/instagram" className='sides duration-200'>
+        <FaInstagram color="#c4c4c4" size={25} />
         </a>
-        <a href="https://wa.me/+919634158726" className="sides">
+        <a href="https://nemogpt.tech/twitter" className='sides duration-200'>
+        <FaTwitter color="#c4c4c4" size={25} />
+        </a>
+
+        {/* <a href="https://wa.me/+919634158726" className="sides">
         <FaWhatsapp />
-        </a>
+        </a> */}
     </div>
   )
 }

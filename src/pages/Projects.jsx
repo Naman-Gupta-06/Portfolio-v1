@@ -154,6 +154,7 @@ const Projects = () => {
               <p>#Auth</p>
              <p>#Firebase</p>
              <p>#Mongodb</p>
+             <p>Express</p>
             </div>
           </div>
           

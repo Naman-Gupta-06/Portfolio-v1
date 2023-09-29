@@ -33,7 +33,7 @@ body {
   justify-content: center;
   min-width: 320px;
   min-height: 100vh;
-  /* background-color: #10101a; */
+  background-color: #10101a;
     background-image: url('/public/bg-1.png'), url('/public/bg-2.png'), url('/public/bg-3.png');
     background-repeat: no-repeat;
     background-size: cover, 100% 1500px, 100% 2100px;
@@ -65,7 +65,7 @@ body::-webkit-scrollbar-thumb {
   font-weight: 500;
   line-height: 92.4%;
   letter-spacing: 0.19em;
-  color: #c4c4c4;
+  /* color: #c4c4c4; */
   text-decoration: none;
   position: relative;
 }
